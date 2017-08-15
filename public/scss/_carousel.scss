@@ -1,0 +1,320 @@
+@import '_variables.scss';
+
+@media screen and (min-width: 1200px) {
+  .Hero_Panel {
+    position: relative;
+    left: 0px;
+    top: 90px;
+    width: 100vw;
+    max-width: 1440px;
+    height: 515.55px !important;
+  }
+
+  .slick-dots li button:before {
+    font-size: 12px;
+  }
+  .sliderImage {
+    filter: brightness(50%);
+  }
+
+  .carousel-header {
+    font-size: 50px;
+    font-family: $springville;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    position: absolute;
+    left: 10%;
+    top: 27%;
+    width: 562px;
+    height: 120px;
+    z-index: 11;
+  }
+  .carousel-subHeader1 {
+    font-size: 24px;
+    font-family: $caslon;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    width: 209px;
+    height: 28px;
+    z-index: 12;
+  }
+
+  .carousel-subHeader2 {
+    font-size: 18px;
+    font-family: $caslon;
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    position: absolute;
+    left: 10%;
+    top: 64%;
+    width: 423px;
+    height: 43px;
+    margin: 25px 0px;
+    z-index: 13;
+  }
+}
+@media screen and (max-width: 1199px) {
+  
+    .Hero_Panel {
+      position: relative;
+      left: 0px;
+      top: 90px;
+      width: 100vw;
+      height: 515px;
+    }
+    
+    .slick-dots li button:before {
+      font-size: 12px;
+    }
+    .sliderImage {
+      filter: brightness(50%);
+    }
+    
+    .carousel-header {
+      font-size: 36px;
+      font-family: $springville;
+      color: rgb(255, 255, 255);
+      line-height: 1;
+      position: absolute;
+      left: 10%;
+      top: 17%;
+      width: 562px;
+      z-index: 11;
+    }
+    .carousel-subHeader1 {
+      font-size: 20px;
+      font-family: $caslon;
+      color: rgb(255, 255, 255);
+      line-height: 1;
+      position: absolute;
+      left: 10%;
+      top: 35%;
+      width: 209px;
+      z-index: 12;
+    }
+    
+    .carousel-subHeader2 {
+      font-size: 16px;
+      font-family: $caslon;
+      color: rgb(255, 255, 255);
+      line-height: 1.333;
+      position: absolute;
+      left: 10%;
+      top: 41%;
+      width: 423px;
+      z-index: 13;
+    }
+  }
+
+@media screen and (max-width: 799px) {
+
+  .Hero_Panel {
+    position: relative;
+    left: 0px;
+    top: 90px;
+    width: 100vw;
+    height: auto;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+  }
+  .sliderImage {
+    filter: brightness(50%);
+  }
+  
+  .carousel-header {
+    font-size: 24px;
+    font-family: $springville;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 562px;
+    z-index: 11;
+  }
+  .carousel-subHeader1 {
+    font-size: 18px;
+    font-family: $caslon;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 209px;
+    z-index: 12;
+  }
+  
+  .carousel-subHeader2 {
+    font-size: 16px;
+    font-family: $caslon;
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    width: 423px;
+    z-index: 13;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  
+    .Hero_Panel {
+      position: relative;
+      left: 0px;
+      top: 90px;
+      width: 100vw;
+      height: auto;
+    }
+    
+    .slick-dots li button:before {
+      font-size: 12px;
+    }
+    .sliderImage {
+      filter: brightness(50%);
+    }
+    
+    .carousel-header {
+      font-size: 18px;
+      font-family: $springville;
+      color: rgb(255, 255, 255);
+      line-height: 1;
+      position: absolute;
+      left: 10%;
+      top: 30%;
+      width: 562px;
+      z-index: 11;
+    }
+    .carousel-subHeader1 {
+      font-size: 14px;
+      font-family: $caslon;
+      color: rgb(255, 255, 255);
+      line-height: 1;
+      position: absolute;
+      left: 10%;
+      top: 55%;
+      width: 209px;
+      z-index: 12;
+    }
+    
+    .carousel-subHeader2 {
+      font-size: 12px;
+      font-family: $caslon;
+      color: rgb(255, 255, 255);
+      line-height: 1.333;
+      position: absolute;
+      left: 10%;
+      top: 65%;
+      width: 423px;
+      z-index: 13;
+    }
+  }
+
+  @media screen and (max-width: 499px) {
+    
+      .Hero_Panel {
+        position: relative;
+        left: 0px;
+        top: 90px;
+        width: 100vw;
+        height: auto;
+      }
+      
+      .slick-dots li button:before {
+        font-size: 12px;
+      }
+      .sliderImage {
+        filter: brightness(50%);
+      }
+      
+      .carousel-header {
+        font-size: 20px;
+        font-family: $springville;
+        color: rgb(255, 255, 255);
+        line-height: 1;
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 562px;
+        z-index: 11;
+      }
+      .carousel-subHeader1 {
+        font-size: 16px;
+        font-family: $caslon;
+        color: rgb(255, 255, 255);
+        line-height: 1;
+        position: absolute;
+        left: 10%;
+        top: 55%;
+        width: 209px;
+        z-index: 12;
+      }
+      
+      .carousel-subHeader2 {
+        font-size: 14px;
+        font-family: $caslon;
+        color: rgb(255, 255, 255);
+        line-height: 1.333;
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        width: 423px;
+        z-index: 13;
+      }
+    }
+    @media screen and (max-width: 399px) {
+      
+        .Hero_Panel {
+          position: relative;
+          left: 0px;
+          top: 90px;
+          width: 100vw;
+          height: auto;
+        }
+        .slick-dots li button:before {
+          font-size: 12px;
+        }
+        .sliderImage {
+          filter: brightness(50%);
+        }
+        
+        .carousel-header {
+          font-size: 18px;
+          font-family: $springville;
+          color: rgb(255, 255, 255);
+          line-height: 1;
+          position: absolute;
+          left: 10%;
+          top: 2%;
+          width: 562px;
+          z-index: 11;
+        }
+        .carousel-subHeader1 {
+          font-size: 14px;
+          font-family: $caslon;
+          color: rgb(255, 255, 255);
+          line-height: 1;
+          position: absolute;
+          left: 10%;
+          top: 32%;
+          width: 209px;
+          z-index: 12;
+        }
+        
+        .carousel-subHeader2 {
+          font-size: 10px;
+          font-family: $caslon;
+          color: rgb(255, 255, 255);
+          line-height: 1.333;
+          position: absolute;
+          left: 10%;
+          top: 50%;
+          width: 375px;
+          z-index: 13;
+        }
+      }

@@ -1,0 +1,218 @@
+@import './_variables.scss';
+@media screen and (min-width: 1131px) {
+  .grid {
+    position: relative;
+    left: 0px;
+    top: 10%;
+    width: 100vw;
+    height: 2725px;
+    list-style: none;
+    z-index: 71;
+  }
+
+  .image-element-class {
+    width: 30%;
+  }
+
+  .grid-subText1 {
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb(118, 118, 118);
+    text-transform: uppercase;
+    line-height: 4.364;
+  }
+
+  .grid-mainText {
+    font-size: 36px;
+    font-family: $springville;
+    color: rgb(19, 19, 19);
+    line-height: 1;
+    width: 100%;
+    text-align: left;
+  }
+
+  .grid-subText2 .grid-link{
+    font-size: 14px;
+    font-family: $caslon;
+    color: rgb(19, 19, 19);
+    line-height: 3.429;
+    text-align: left;
+  }
+
+  .grid-link:hover {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .separator {
+    margin: 25px 0px 50px 0px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .grid {
+    position: relative;
+    left: 0px;
+    top: 10%;
+    width: 100vw;
+    height: 2725px;
+    list-style: none;
+    z-index: 71;
+  }
+
+  .image-element-class {
+    width: 30%;
+  }
+  .grid-image {
+    width: 95%;
+  }
+  .grid-subText1 {
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb(118, 118, 118);
+    text-transform: uppercase;
+    line-height: 4.364;
+  }
+
+  .grid-mainText {
+    font-size: 32px;
+    font-family: $springville;
+    color: rgb(19, 19, 19);
+    line-height: 1;
+    width: 90%;
+    text-align: left;
+  }
+
+  .grid-subText2 .grid-link{
+    font-size: 14px;
+    font-family: $caslon;
+    color: rgb(19, 19, 19);
+    line-height: 3.429;
+    text-align: left;
+  }
+
+  .grid-link:hover {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .separator {
+    width: 300px;
+    height: 1px;
+    margin: 25px 0px 50px 0px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .grid {
+    position: relative;
+    left: 0px;
+    top: 10%;
+    width: 100vw;
+    height: 2725px;
+    list-style: none;
+    z-index: 71;
+    padding: 0 2.5%;
+  }
+  
+  .image-element-class {
+    width: 45%;
+    height: auto;
+  }
+  .grid-image {
+    width: 90%;
+
+  }
+  .grid-subText1 {
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb(118, 118, 118);
+    text-transform: uppercase;
+    line-height: 4.364;
+  }
+  
+  .grid-mainText {
+    font-size: 36px;
+    font-family: $springville;
+    color: rgb(19, 19, 19);
+    line-height: 1;
+    width: 175px;
+    text-align: left;
+  }
+  
+  .grid-subText2 .grid-link{
+    font-size: 12px;
+    font-family: $caslon;
+    color: rgb(19, 19, 19);
+    line-height: 3.429;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .grid-link:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .separator {
+    width: 97%;
+    margin: 25px 0px 50px 0px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .grid {
+    position: relative;
+    left: 0px;
+    top: 10%;
+    width: 100vw;
+    height: 2725px;
+    list-style: none;
+    z-index: 71;
+    padding: 0 2.5%;
+  }
+  
+  .image-element-class {
+    width: 45%;
+    height: auto;
+  }
+  .grid-image {
+    width: 90%;
+
+  }
+  .grid-subText1 {
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb(118, 118, 118);
+    text-transform: uppercase;
+    line-height: 4.364;
+  }
+  
+  .grid-mainText {
+    font-size: 36px;
+    font-family: $springville;
+    color: rgb(19, 19, 19);
+    line-height: 1;
+    width: 95%;
+    text-align: left;
+  }
+  
+  .grid-subText2 .grid-link{
+    font-size: 12px;
+    font-family: $caslon;
+    color: rgb(19, 19, 19);
+    line-height: 3.429;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .grid-link:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .separator {
+    width: 97%;
+    margin: 25px 0px 50px 0px;
+  }
+}
