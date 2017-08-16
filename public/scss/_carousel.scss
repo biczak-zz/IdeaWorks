@@ -1,6 +1,12 @@
 @import '_variables.scss';
 
 @media screen and (min-width: 1200px) {
+  .carousel-container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+  }
+  
   .Hero_Panel {
     position: relative;
     left: 0px;

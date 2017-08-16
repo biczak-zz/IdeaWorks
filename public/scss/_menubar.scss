@@ -8,6 +8,8 @@
     display: flex;
     display:-webkit-flex;
     align-items: center;
+    border-bottom: 1px solid black;
+    background: white;
   }
   .logo {
     position: relative;
@@ -45,7 +47,7 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 1440px;
+    width: 100vw;
     height: 100px;
     z-index: 74;
     border-bottom: 1px solid black;
@@ -96,7 +98,7 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 1440px;
+    width: 100vw;
     height: 100px;
     z-index: 74;
     border-bottom: 1px solid black;
@@ -161,7 +163,7 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 1440px;
+    width: 100vw;
     height: 100px;
     z-index: 74;
     border-bottom: 1px solid black;
