@@ -6,6 +6,7 @@ const Carousel = (props) => {
   const settings = {
     autoplay: props.autoplay,
     autoplaySpeed: props.autoplaySpeed,
+    pauseOnHover: props.pauseOnHover,
     dots: props.dots,
     infinite: props.infinite,
     speed: props.speed,

@@ -24092,7 +24092,7 @@ var App = function (_Component) {
         'div',
         { className: 'app-container' },
         _react2.default.createElement(_MenuBar2.default, null),
-        _react2.default.createElement(_Carousel2.default, { autoplay: true, autoplaySpeed: 5000, dots: true, infinite: true, speed: 1000, slidesToShow: 1, slidesToScroll: 1 }),
+        _react2.default.createElement(_Carousel2.default, { autoplay: true, autoplaySpeed: 5000, pauseOnHover: false, dots: true, infinite: true, speed: 1000, slidesToShow: 1, slidesToScroll: 1 }),
         _react2.default.createElement(_Grid2.default, { elements: [{ src: '../assets/Grid1.png', alt: 'Grid1', date: 'February 10 2017', mainText: 'Bureaux exquisite delightful carefully curated soft power.', presentedBy: 'LOREM IPSUM' }, { src: '../assets/Grid2.png', alt: 'Grid2', date: 'February 2 2017', mainText: 'Sharp bureaux sleepy K-pop carefully curated.', presentedBy: 'LOREM IPSUM' }, { src: '../assets/Grid3.png', alt: 'Grid3', date: 'January 27 2017', mainText: 'St Mortiz uniforms Beams.', presentedBy: 'LOREM IPSUM' }, { src: '../assets/Grid6.png', alt: 'Grid6', date: 'January 12 2017', mainText: 'Artisinal iconic cutting-edge business class.', presentedBy: 'LOREM IPSUM' }, { src: '../assets/Grid4.png', alt: 'Grid4', date: 'January 21 2017', mainText: 'Esse airport veniam ryokan soft power.', presentedBy: 'LOREM IPSUM' }, { src: '../assets/Grid5.png', alt: 'Grid5', date: 'January 18 2017', mainText: 'K-pop extraordinary.', presentedBy: 'LOREM IPSUM' }] })
       );
     }
@@ -24130,6 +24130,7 @@ var Carousel = function Carousel(props) {
   var settings = {
     autoplay: props.autoplay,
     autoplaySpeed: props.autoplaySpeed,
+    pauseOnHover: props.pauseOnHover,
     dots: props.dots,
     infinite: props.infinite,
     speed: props.speed,
