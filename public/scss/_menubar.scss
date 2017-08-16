@@ -23,10 +23,13 @@
     text-align: right;
     position: absolute;
     left: 80%;
+    top: 45px;
     z-index: 76;
     display: flex;
-    display:-webkit-flex;
-    align-items: center;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    vertical-align: top;
   }
   .header-right {
     padding: 0px 5%;
