@@ -10,3 +10,14 @@
   overflow-x: hidden;
   background: white;
 }
+
+#footer {
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 12px;
+  font-family: "Arial";
+  height: 30vh;
+  width: 100vw;
+}
