@@ -58,11 +58,13 @@
     display: flex;
     display:-webkit-flex;
     align-items: center;
+    z-index: 2;
   }
   .logo {
     position: relative;
     left: 5%;
     height: 35px;
+    z-index: 2;
   }
   .right {
     font-size: 12px;
@@ -74,6 +76,7 @@
     position: absolute;
     left: 80%;
     display: flex;
+    z-index: 2;
     align-items: center;
   }
   .header-right {
